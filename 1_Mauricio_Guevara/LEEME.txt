@@ -1,0 +1,33 @@
+MAURICIO GUEVARA · PAQUETE PARA EL REPOSITORIO Grupo_3_Exposicion
+Exposición IHC · APE 4 Fase 2 · Técnicas y herramientas de prototipado
+
+Este zip tiene solo tus archivos. Todo lo que contiene está dentro de la carpeta "contenido",
+con las mismas rutas que tendrá el repositorio.
+
+Contiene la base: README, documentos, apertura y cierre, diapositivas del jueves completas y los dos Kahoot.
+
+PASOS (tú subes primero, para que los demás tengan la base)
+
+1. Abre Git Bash o PowerShell en tu carpeta de trabajo:
+   cd "C:\Users\ASUS\Documents\5to Semestre\IHC\2 Parcial"
+2. Clona el repositorio vacío. Si ya existe la carpeta Grupo_3_Exposicion con git iniciado, entra y sáltate este paso:
+   git clone https://github.com/Mauri10G/Grupo_3_Exposicion.git
+   cd Grupo_3_Exposicion
+3. Copia el contenido del zip dentro de la carpeta. Esto incluye la carpeta oculta .github:
+   robocopy "RUTA_DONDE_DESCOMPRIMISTE\contenido" . /E
+   (robocopy marca códigos de salida 1 como éxito. Es normal)
+4. Sube a main:
+   git add .
+   git status
+   git commit -m "Base del repositorio, apertura, Kahoot y documentos"
+   git branch -M main
+   git push -u origin main
+5. Activa GitHub Pages para ver el prototipo en línea:
+   Settings, Pages, Source: Deploy from a branch, Branch: main, carpeta / (root), Save.
+6. Avisa al grupo que ya pueden subir sus zips. Ellos ya deben haber aceptado la invitación.
+7. Cuando los demás abran su Pull Request, otra persona lo revisa y tú haces el merge.
+
+ANTES DE SUBIR
+- Abre tu bitácora y tu conclusión. Son tuyas: escríbelas con tus palabras y fechas reales.
+- No cambies archivos de otros integrantes. Si algo no te cuadra, avisa por el grupo.
+- Repositorio: https://github.com/Mauri10G/Grupo_3_Exposicion
